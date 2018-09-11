@@ -1,0 +1,138 @@
+/* #2 #colorful #palette is:
+    * Background: #F5F5F5 (GREY 100)
+    * Primary Text: black
+
+    * Primary color: #3F51B5 (INDIGO)
+    * Primary color_text : white
+    * Accent color: #CDDC39 (LIME)
+    * Accent color_text: black
+    */
+
+/*################# G L O B A L   S T Y L E S #################*/
+
+* {
+    /* #2 #font #faces */
+    font-family: Roboto, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+button, div h3 a {
+    /* #2 #font capital #letters for buttons and w3w links */
+    text-transform: uppercase;
+    /*black text for buttons and w3w links */
+    color: black;
+}
+
+
+/*################ A P P   B A R   S T Y L E S ################*/
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/*########### C H A N N E L   L I S T   S T Y L E S ###########*/
+
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+}
+
+ul .selected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+li {
+    padding: 16px;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+hr {
+    height: 2px;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.hrInList {
+    padding: 0px;
+    height: 0px;
+}
+
+
+/*################ T A P   B A R   S T Y L E S ################*/
+
+#tabBar {
+    background-color: white;
+    text-align: center;
+}
+
+#tabBar button {
+    background-color: white;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+    border: none;
+}
+
+#tabBar button img {
+    display: block;
+    margin: 0px auto 4px auto;
+}
+
+#tabBar .selected {
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+
+/*############### M E S S A G E S   S T Y L E S ###############*/
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    margin-top: 2px;
+}
+
+.message h3 em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.own {
+    margin-left: 17.5%;
+}
